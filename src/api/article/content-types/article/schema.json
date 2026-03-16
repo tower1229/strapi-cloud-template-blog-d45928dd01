@@ -41,6 +41,14 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
+    "pinned": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
     "blocks": {
       "type": "dynamiczone",
       "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
